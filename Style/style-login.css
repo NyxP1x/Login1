@@ -5,13 +5,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url(images/background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -27,11 +28,11 @@ body{
 }
 
 .wrapper h1 {
-    font-size: 35px;
+    font-size: 35.008px;
     text-align: center
 }
 
-.wrapper .input-box{
+.wrapper .input-box {
     position: relative;
     width: 100%;
     height: 50px;
@@ -48,31 +49,31 @@ body{
     border-radius: 40px;
     font-size: 16px;
     color: #fff;
-    padding: 20px 45px 20px 20px; 
+    padding: 20px 45.008px 20px 20px;
 }
 
-.input-box input::placeholder{
+.input-box input::placeholder {
     color: #fff;
 }
 
-.input-box i{
+.input-box i {
     position: absolute;
-    right: 20px;
+    right: 1.25rem;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
+    font-size: .9063rem;
+    margin: -0.9375rem 0 .9375rem;
 }
 
-.remember-forgot label input{
+.remember-forgot label input {
     accent-color: #fff;
-    margin-right: 3px;
+    margin-right: .1875rem;
 }
 
 .remember-forgot a {
@@ -84,25 +85,25 @@ body{
     text-decoration: underline;
 }
 
-.wrapper .btn{
+.wrapper .btn {
     width: 100%;
-    height: 45px;
+    height: 2.8125rem;
     background: #fff;
     border: none;
     outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 2.5rem;
+    box-shadow: 0 0 .625rem rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     font-weight: 600;
 }
 
 .wrapper .register-link {
-    font-size: 14.5px;
+    font-size: .9063rem;
     text-align: center;
-    margin-top: 20px ;
-    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 16px;
 }
 
 .register-link p a {
@@ -115,20 +116,20 @@ body{
     text-decoration: underline;
 }
 
-.forgot-txt{
-    margin: 20px;
+.forgot-txt {
+    margin: 1.25rem;
 }
 
 .wrapper .tos {
     display: flex;
     justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
+    font-size: .9063rem;
+    margin: -0.9375rem 0 .9375rem;
 }
 
-.tos label input{
+.tos label input {
     accent-color: #fff;
-    margin-right: 3px;
+    margin-right: .1875rem;
 }
 
 .tos a {
@@ -137,65 +138,88 @@ body{
 }
 
 /* TOS */
-.terms-box{
-    max-width: 460px;
+.terms-box {
+    max-width: 28.75rem;
     background-color: transparent;
-    border: 2px solid rgb(255, 255, 255 rgba(255, 255, 255, .2));
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: .125rem solid rgb(255, 255, 255 rgba(255, 255, 255, .2));
+    backdrop-filter: blur(1.25rem);
+    box-shadow: 0 0 .625rem rgba(0, 0, 0, .2);
     color: #ffffff;
-    border-radius: 10px;
-    padding: 30px 40px;
+    border-radius: .625rem;
+    padding: 1.875rem 2.5rem;
 }
-.terms-content{
-    padding: 0 20px;
-    height: 400px;
+
+.terms-content {
+    padding: 0 1.25rem;
+    height: 25rem;
     overflow-y: auto;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 500;
     color: #f1f1f1;
 }
-.terms-content .audit{
-    margin-bottom: 10px;
-}
-.terms-content .greetings{
-    margin-bottom: 10px;
-}
-.terms-content::-webkit-scrollbar{
-    width: 4px;
-    background-color: #000000;
-}
-.terms-content::-webkit-scrollbar-thumb{
-    background-color: #ffffff;
-}
-.terms-content h2{
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.terms-box h4{
-    font-size: 13px;
-    text-align: center;
-    padding: 0 40px;
-    margin: 40px;
-}
-.terms-box h4 span{
-    color: #ffffff;
+
+.terms-content .audit {
+    margin-bottom: .625rem;
 }
 
-.btn{
+.terms-content .greetings {
+    margin-bottom: .625rem;
+}
+
+.terms-content::-webkit-scrollbar {
+    width: .25rem;
+    background-color: #8863ce;
+}
+
+.terms-content::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+.terms-content h2 {
+    text-transform: uppercase;
+    margin-bottom: .625rem;
+}
+
+.terms-box h4 {
+    font-size: .8125rem;
+    text-align: center;
+    padding: 0 2.5rem;
+    margin: 2.5rem;
+}
+
+.terms-box h4 span {
+    color: #ff0015;
+}
+
+.btn {
     width: 100%;
-    height: 45px;
+    height: 2.8125rem;
     background: #fff;
     border: none;
     outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 2.5rem;
+    box-shadow: 0 0 .625rem rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     font-weight: 600;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 0.6;
 }
+
+/* Telefon */
+@media (max-width: 768px) {
+    body {
+        background-image: url('images/background-phone.png');
+    }
+}
+
+/* Tableta */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url('images/background-tablet.png');
+    }
+}
+
