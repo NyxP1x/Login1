@@ -14,6 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -213,6 +214,7 @@ body {
 @media (max-width: 768px) {
     body {
         background-image: url('images/background-phone.png');
+        overflow: hidden ;
     }
 }
 
@@ -220,6 +222,7 @@ body {
 @media (min-width: 769px) and (max-width: 1024px) {
     body {
         background-image: url('images/background-tablet.png');
+        overflow: hidden;
     }
 }
 
